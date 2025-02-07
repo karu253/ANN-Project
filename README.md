@@ -3,18 +3,18 @@ This project leverages an Artificial Neural Network (ANN) model for customer chu
 
 ### Project Structure
 📂 ANN-Project
-│-- 📜 app.py                     # Streamlit application for predictions
+│-- 📜 app.py                       # Streamlit application for predictions
 │-- 📜 experiments.ipynb            # Notebook for training and evaluating the ANN model
-│-- 📜 prediction.ipynb            # Notebook for making predictions using the trained model
-│-- 📜 requirements.txt            # Dependencies for the project
+│-- 📜 prediction.ipynb             # Notebook for making predictions using the trained model
+│-- 📜 requirements.txt             # Dependencies for the project
 │-- 📂 models
-│   ├── model.h5             # Saved ANN model in .h5 format (Keras compatible)
+│   ├── model.h5                    # Saved ANN model in .h5 format (Keras compatible)
 │-- 📂 encoders_scalers
-│   ├── label_encoder_gender.pkl         # Pickle file for gender encoding
+│   ├── label_encoder_gender.pkl    # Pickle file for gender encoding
 │   ├── onehot_encoder_geo.pkl      # Pickle file for geography encoding
-│   ├── scaler.pkl                 # Pickle file for data scaling
+│   ├── scaler.pkl                  # Pickle file for data scaling
 │-- 📂 data
-│   ├── Churn_Modelling.csv                # Dataset used for training the model
+│   ├── Churn_Modelling.csv         # Dataset used for training the model
 │-- 📜 README.md                   # Project documentation
 
 ### Installation Guide
