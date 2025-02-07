@@ -2,6 +2,7 @@
 This project leverages an Artificial Neural Network (ANN) model for customer churn prediction. The model is trained using Keras and TensorFlow, ensuring accurate classification of customers likely to churn. The project includes data preprocessing, training, evaluation, and deployment through a Streamlit web application.
 
 ### Project Structure
+```plaintext
 📂 ANN-Project
 │-- 📜 app.py                       # Streamlit application for predictions
 │-- 📜 experiments.ipynb            # Notebook for training and evaluating the ANN model
@@ -16,7 +17,7 @@ This project leverages an Artificial Neural Network (ANN) model for customer chu
 │-- 📂 data
 │   ├── Churn_Modelling.csv         # Dataset used for training the model
 │-- 📜 README.md                   # Project documentation
-
+```
 ### Installation Guide
 To set up the project, follow these steps:
 
