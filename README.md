@@ -21,15 +21,11 @@ This project leverages an Artificial Neural Network (ANN) model for customer chu
 ### Installation Guide
 To set up the project, follow these steps:
 
-### Step 1: Clone the Repository
-git clone https://github.com/your-repo/ANN-Project.git
-cd ANN-Project
-
-### Step 2: Install Dependencies
+### Step 1: Install Dependencies
 Make sure you have Python installed (preferably Python 3.8 or later). Then, install the required dependencies:
 pip install -r requirements.txt
 
-### Step 3: Train & Evaluate the Model
+### Step 2: Train & Evaluate the Model
 Run the experiment.ipynb notebook to train and evaluate the ANN model.
 
 The model will be saved in .h5 format inside the models/ directory.
@@ -38,25 +34,26 @@ Encoders and scalers for categorical variables and feature scaling will be store
 Alternatively, you can execute the training script programmatically:
 python experiment.py
 
-### Step 4: Make Predictions
+### Step 3: Make Predictions
 Execute prediction.ipynb to load the trained model and make predictions.
 
-### Step 5: Run the Churn Prediction App
+### Step 4: Run the Churn Prediction App
 Once the model is trained, deploy the application using Streamlit:
 streamlit run app.py
 
 Your interactive Churn Prediction App is now ready to use!
 
 ## Project Features
+```
 ✅ Artificial Neural Network (ANN): A deep learning model for accurate churn prediction.
 ✅ Preprocessing Pipeline: Encoders and scalers stored in pickle files for seamless data transformation.
 ✅ Model Storage: Trained ANN model saved in .h5 format for easy reusability.
 ✅ User-Friendly Interface: Interactive Streamlit app for real-time customer churn prediction.
 ✅ Scalability & Flexibility: Easily adaptable for other classification tasks.
-
+```
 ### Dependencies
 The project relies on the following libraries:
-
+```
 Tensorflow==2.15.0
 Pandas 
 Numpy 
@@ -65,7 +62,7 @@ tensorboard
 matplotlib
 streamlit
 scikeras
-
+```
 
 ### Conclusion
 This project provides an end-to-end solution for customer churn prediction using ANN. With a well-defined training pipeline and a user-friendly web app, it enables businesses to take proactive actions to reduce churn.
